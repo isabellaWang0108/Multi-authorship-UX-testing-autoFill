@@ -49,15 +49,15 @@ export default class Creator extends React.Component {
         var tempArr = this.state.creators;
 
         // change between owner and current user
-        var sum = parseInt(tempArr[0].ownership) + parseInt(tempArr[event.target.id].ownership);
+        var sum = parseFloat(tempArr[0].ownership) + parseFloat(tempArr[event.target.id].ownership);
         console.log(sum);
+        
         if (event.target.value === '') {
             tempArr[event.target.id].ownership = 0;
             tempArr[0].ownership = sum - event.target.value;
         } else {
             tempArr[event.target.id].ownership = event.target.value;
             tempArr[0].ownership = parseFloat(sum - event.target.value).toFixed(1);
-
         }
 
         this.setState({ creators: tempArr });
@@ -71,7 +71,8 @@ export default class Creator extends React.Component {
         // // can't be negative field
         if (this.state.creators[0].ownership < 0) {
             tempArr[0].ownership = 0;
-            tempArr[event.target.id].ownership = sum + 1;
+
+            tempArr[event.target.id].ownership = sum;
         }
 
         // //can't exceed total of 100
