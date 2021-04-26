@@ -16,10 +16,10 @@ export default class Creator extends React.Component {
         var tempArr = this.state.creators;
 
         for (var i = 0; i < this.state.creators.length; i++) {
-            tempArr[i].ownership = total / owner_count;
+            tempArr[i].ownership = parseFloat(total / owner_count).toFixed(1);
         }
 
-        tempArr.push({ name: '', ownership: total / owner_count, max: total - owner_count + 1 });
+        tempArr.push({ name: '', ownership: parseFloat(total / owner_count).toFixed(1), max: total - owner_count + 1 });
 
         this.setState({
             creators: tempArr
@@ -44,20 +44,19 @@ export default class Creator extends React.Component {
 
     changeOwnership(event) {
         //   change the current input
-
+        console.log(event.target.value)
 
         var tempArr = this.state.creators;
 
-
-
+        // change between owner and current user
         var sum = parseInt(tempArr[0].ownership) + parseInt(tempArr[event.target.id].ownership);
-
+        console.log(sum);
         if (event.target.value === '') {
             tempArr[event.target.id].ownership = 0;
             tempArr[0].ownership = sum - event.target.value;
         } else {
             tempArr[event.target.id].ownership = event.target.value;
-            tempArr[0].ownership = sum - event.target.value;
+            tempArr[0].ownership = parseFloat(sum - event.target.value).toFixed(1);
 
         }
 
@@ -69,20 +68,20 @@ export default class Creator extends React.Component {
             this.setState({ creators: tempArr });
         }
 
-        // can't be negative field
+        // // can't be negative field
         if (this.state.creators[0].ownership < 0) {
             tempArr[0].ownership = 0;
             tempArr[event.target.id].ownership = sum + 1;
         }
 
-        //can't exceed total of 100
-        var total = 0;
-        for (var i = 0; i < tempArr.length; i++) {
-            total += tempArr[i].ownership;
-        }
-        if (total > 100) {
-            tempArr[event.target.id].ownership -= (total - 100);
-        }
+        // //can't exceed total of 100
+        // var total = 0;
+        // for (var i = 0; i < tempArr.length; i++) {
+        //     total += tempArr[i].ownership;
+        // }
+        // if (total > 100) {
+        //     tempArr[event.target.id].ownership -= (total - 100);
+        // }
     }
 
     changeName(event) {
