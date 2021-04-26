@@ -35,7 +35,7 @@ export default class Creator extends React.Component {
         var newCount = 100;
         for (var i = 0; i < this.state.creators.length; i++) {
             newCount -= this.state.creators[i].ownership;
-            tempArr[i].ownership = total / owner_count;
+            tempArr[i].ownership = parseFloat(total / owner_count).toFixed(1);
             tempArr[i].max = total - owner_count + 1;
         }
         this.setState({ creators: tempArr, count: newCount });
