@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container-sm" style={{ maxWidth: 450 }}>
       <div style={{ marginTop: 100 }}></div>
-      <h1>Create an NFT</h1>
+      <h1>Create an Art piece</h1>
       <form>
         <div className="form-group">
           <label>Name your piece</label>
