@@ -12,7 +12,7 @@ function App() {
       <form>
         <div className="form-group">
           <label>Name your piece</label>
-          <input value="Trippy" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readOnly/>
+          <input value="Trippy" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readOnly />
         </div>
 
         <div className="form-group">
@@ -23,11 +23,12 @@ function App() {
 
         <div className="form-group">
           <label>Price</label>
-          <input value="$100" className="form-control" id="exampleInputPassword1" readOnly/>
+          <input value="$100" className="form-control" id="exampleInputPassword1" readOnly />
         </div>
 
         <div className="form-group">
           <label>Creator(s)</label>
+          
           <Creator />
 
         </div>
