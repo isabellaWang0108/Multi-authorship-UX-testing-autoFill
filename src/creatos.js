@@ -2,6 +2,9 @@ import React from 'react';
 
 const total = 100;
 var owner_count = 1;
+var creator_name = ["cupcake", "cryptopur", "bluecrab", "lavacake", "cryptobird", "lilygreen"]
+var name_count = 0;
+
 export default class Creator extends React.Component {
 
     state = {
@@ -31,11 +34,13 @@ export default class Creator extends React.Component {
             }
         }
 
-        tempArr.push({ name: '', ownership: Math.floor(divid), max: total - owner_count + 1 });
+        tempArr.push({ name: creator_name[name_count], ownership: Math.floor(divid), max: total - owner_count + 1 });
 
         this.setState({
             creators: tempArr
         })
+
+        name_count++;
     };
 
 
@@ -58,6 +63,8 @@ export default class Creator extends React.Component {
             tempArr[i].max = total - owner_count + 1;
         }
         this.setState({ creators: tempArr, count: newCount });
+
+        name_count--;
     }
 
     radioSelect(e) {
