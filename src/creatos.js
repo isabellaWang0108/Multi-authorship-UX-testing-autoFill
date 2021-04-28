@@ -144,7 +144,7 @@ export default class Creator extends React.Component {
                 <div className="form-row" style={{ marginBottom: 16 }}>
                     <div className="col-md-8" >
                         <input type="radio" style={{ cursor: 'pointer' }} name="drone" value="auto" onChange={this.radioSelect.bind(this)}
-                            checked={this.state.selected === "auto"} /><span> Split even</span>
+                            checked={this.state.selected === "auto"} /><span> Split evenly</span>
 
                         <input type="radio" style={{ cursor: 'pointer', marginLeft: 24 }} name="drone" value="custom" onChange={this.radioSelect.bind(this)}
                             checked={this.state.selected === "custom"} /><span> Customize split</span>
