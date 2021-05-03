@@ -22,7 +22,7 @@ You have uploaded your art to the Voice marketplace and are adding several contr
 ### Task 1: Adding two more creators to the page.
 
 Goal: To find out whether the why that credits attributed to a new collaborator makes sense.
-#### Task 2: Allocating the royalty credits so that cryptogod receives 20% of the credit, cupcake receives 20% of the credit, and cryptopur receives 60% of the credit.
+### Task 2: Allocating the royalty credits so that cryptogod receives 20% of the credit, cupcake receives 20% of the credit, and cryptopur receives 60% of the credit.
 Goal: To identify any potential problems in customizing creator credits.
 ### Task 3: Adding one more collaborator, so there is a total of four creators.
 Get prepare for task 4.
