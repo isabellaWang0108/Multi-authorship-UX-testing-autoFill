@@ -29,14 +29,25 @@ Get prepare for task 4.
 ### Task 4: Allocating the credits so that cryptogod receives 10% of the credits, cupcake receives 15% of the credits, cryptopur receives 15% of the credits, and bluecrab receives 60% of the credits.
 Goal: Identify any potential problems when the task is more complex.
 ### Task 5: Delete a collaborator
-Goal: whether users know how to delet a collaborator. Also whether the way that credits attributed makes sense once a creator is removed.
+Goal: whether users know how to delet a collaborator. 
 ### Task 6: spliting the credits evenly between the three collaborators.
 Goal: whether users know how to split the credits when the Math involves an infinite number. 
 
 # Matrix
-| Task     | Prototype auto-fill | Prototype manual-fill |
-| ---      | ------------------- | --------------------  |
-| #1       |                     |                       |
+| Task     | Prototype auto-fill                          | Prototype manual-fill            |
+| -------- | -------------------------------------------- | 
+| #1       |  100% success rate.                          | 
+|          |  8/10 dislike                                | 
+|          |  2/10 think there are 2 users by default     | 
+| -------- | -------------------------------------------- | 
+| #2       | 100% success                                 |
+|          | 58 seconds on average, 511 interactions      |
+| -------- | -------------------------------------------- | 
+| #4       | 61 seconds on average                        |
+| -------- | -------------------------------------------- | 
+| #5       | 100% success                                 |
+| -------- | -------------------------------------------- | 
+| #6       | 100% success                                 |
 
 
 
