@@ -1,5 +1,5 @@
 # UX prototpye 1/2
-Autofilled multi-authorship [Link](https://isabellawang0108.github.io/Multi-authorship-UX-testing-autoFill/).
+[Autofilled multi-authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-autoFill/).
 
 # User testing
 User testing is the process of evaluating a product by testing it with representative users. Participants are asked to complete tasks while the researcher and observers watch, listen, and take notes. This test aims to identify any usability problems and determine the participant's satisfaction level with adding multiple authors with custom credit shares.
