@@ -19,7 +19,15 @@ You have uploaded your art to the Voice marketplace and are adding several contr
 # Tasks
 
 ### Task 1:
- Adding two more creators to the page
+Adding two more creators to the page
 ### Task 2: 
-Go ahead and allocate the royalty credits so that cryptogod receives 20% of the credit, cupcake receives 20% of the credit, and cryptopur receives 60% of the credit.
+Allocating the royalty credits so that cryptogod receives 20% of the credit, cupcake receives 20% of the credit, and cryptopur receives 60% of the credit.
+### Task 3: 
+Adding one more collaborator, so there is a total of four creators.
+### Task 4: 
+Allocating the credits so that cryptogod receives 10% of the credits, cupcake receives 15% of the credits, cryptopur receives 15% of the credits, and bluecrab receives 60% of the credits.
+### Task 5: 
+Delete a collaborator
+### Task 6: 
+spliting the credits evenly between the three collaborators.
 
