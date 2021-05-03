@@ -6,10 +6,10 @@ User testing is the process of evaluating a product by testing it with represent
 
 In this testing, we offered two prototypes, [Autofilled multi-authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-autoFill/) and [Manually filled multi authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-manualFill/).
 
-## auto-filled UX
+### auto-filled UX
 The logic set up is that people can modify the % ownership for the co-authors, but not for themselves. For themselves, it automatically updates to 100 minus the total of all co-authors.
 
-## manual UX
+### manual UX
 The field is free to edit. There will be a count to notify users whether they need to add or subtract credits. The submit button will only be activated once all the fields are added up to 100.
 
 
@@ -18,8 +18,8 @@ You have uploaded your art to the Voice marketplace and are adding several contr
 
 # Tasks
 
-## Task 1:
+### Task 1:
  Adding two more creators to the page
-## Task 2: 
+### Task 2: 
 Go ahead and allocate the royalty credits so that cryptogod receives 20% of the credit, cupcake receives 20% of the credit, and cryptopur receives 60% of the credit.
 
