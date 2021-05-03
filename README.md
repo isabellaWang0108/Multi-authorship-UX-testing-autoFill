@@ -38,7 +38,7 @@ Goal: whether users know how to split the credits when the Math involves an infi
 | -------- | -------------------------------------------- | -------------------------------------------- |
 | #1     |  100% success rate<br/> 8/10 dislike<br/> 2/10 think there are 2 users by default| 100% success rate<br/> 1/10 dislike<br/>1/10 thinks there are 2 users|
 | #2       | 100% success<br/>58 seconds on average<br/>51.1 interactions/user| 100% success<br/>34 seconds on average<br/>14.7 interactions/user|
-| #4       | 61 seconds on average,                       |32 seconds on average; 16 interactions/user|
+| #4       | 61 seconds on average<br/> 60 interactions/user |32 seconds on average<br/> 16 interactions/user|
 | #5       | 100% success; 0/10 dislike                   | 100% success; 0/10 dislike                   |
 | #6       | 100% success;                                | 100% success;                  |
 
