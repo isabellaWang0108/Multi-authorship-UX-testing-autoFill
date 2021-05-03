@@ -36,7 +36,9 @@ Goal: whether users know how to split the credits when the Math involves an infi
 # Matrix
 | Task     | Prototype auto-fill                          |
 | -------- | -------------------------------------------- | 
-| #1       |  100% success rate.8/10 dislike 2/10 think there are 2 users by default| 
+| '#1'     |  100% success rate.|
+|          |8/10 dislike |
+|          |   2/10 think there are 2 users by default| 
 | #2       | 100% success                                 |
 |          | 58 seconds on average, 511 interactions      |
 | #4       | 61 seconds on average                        |
