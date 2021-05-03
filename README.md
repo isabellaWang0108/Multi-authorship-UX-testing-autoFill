@@ -34,13 +34,13 @@ Goal: whether users know how to delet a collaborator.
 Goal: whether users know how to split the credits when the Math involves an infinite number. 
 
 # Matrix
-| Task     | Prototype auto-fill                          |
-| -------- | -------------------------------------------- | 
-| #1     |  100% success rate; 8/10 dislike; 2/10 think there are 2 users by default| 
-| #2       | 100% success; 58 seconds on average, 511 interactions|
-| #4       | 61 seconds on average                        |
-| #5       | 100% success                                 |
-| #6       | 100% success                                 |
+| Task     | Prototype auto-fill                          | Prototype manual-fill
+| -------- | -------------------------------------------- | -------------------------------------------- |
+| #1     |  100% success rate; 8/10 dislike; 2/10 think there are 2 users by default| 100% success rate; 1/10 dislike;|
+| #2       | 100% success; 58 seconds on average, 51.1 interactions/user| 100% success; 34 seconds on average; 14.7 interactions/user|
+| #4       | 61 seconds on average,                       |32 seconds on average; 16 interactions/user|
+| #5       | 100% success; 0/10 dislike                   | 100% success; 0/10 dislike                   |
+| #6       | 100% success;                                | 100% success;                  |
 
 
 
