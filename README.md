@@ -33,5 +33,10 @@ spliting the credits evenly between the three collaborators.
 
 # Matrix
 | Task     | Prototype auto-fill | Prototype manual-fill |
-| ---      | ---       |
-| #1 | `         |
+| ---      | ------------------- | --------------------  |
+| #1       |                     |                       |
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
