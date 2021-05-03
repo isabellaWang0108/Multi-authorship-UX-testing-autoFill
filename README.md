@@ -4,7 +4,7 @@
 # User testing
 User testing is the process of evaluating a product by testing it with representative users. Ten participants are assigned to each prototype to complete tasks while the researcher and observers watch, listen, and take notes. This test aims to identify any usability problems and determine the participant's satisfaction level with adding multiple authors with custom credit shares.
 
-In this testing, we offered two prototypes, [Autofilled multi-authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-autoFill/) and [Manually filled multi authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-manualFill/).
+In this testing, we offered two prototypes, [Autofilled multi-authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-autoFill/) and [Manually filled multi authorship](https://isabellawang0108.github.io/Multi-authorship-UX-testing-Iteration/).
 
 ### auto-filled UX
 The logic set up is that people can modify the % ownership for the co-authors, but not for themselves. For themselves, it automatically updates to 100 minus the total of all co-authors.
@@ -39,9 +39,16 @@ Goal: whether users know how to split the credits when the Math involves an infi
 | #1     |  100% success rate<br/> 8/10 dislike<br/> 2/10 think there are 2 users by default| 100% success rate<br/> 1/10 dislike<br/>1/10 thinks there are 2 users|
 | #2       | 100% success<br/>58 seconds on average<br/>51.1 interactions/user| 100% success<br/>34 seconds on average<br/>14.7 interactions/user|
 | #4       | 61 seconds on average<br/> 60 interactions/user |32 seconds on average<br/> 16 interactions/user|
-| #5       | 100% success; 0/10 dislike                   | 100% success; 0/10 dislike                   |
-| #6       | 100% success;                                | 100% success;                  |
+| #5       | 100% success<br/> 0/10 dislike                   | 100% success<br/> 0/10 dislike                   |
+| #6       | 100% success                                | 100% success                  |
 
+
+
+# Summary
+- The manual input is easier to user with more user satisfactions based on a significantly less amount(73%) of interactions and time.
+- The default username is a confusion point for users to mistaken themselves is other users. 
+- Some users think the creatos section doesn't include themselves
+- Users do not like credits being split among users by default.
 
 
 
