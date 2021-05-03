@@ -34,7 +34,7 @@ Goal: whether users know how to delet a collaborator.
 Goal: whether users know how to split the credits when the Math involves an infinite number. 
 
 # Matrix
-| Task     | Prototype auto-fill                          | Prototype manual-fill            |
+| Task     | Prototype auto-fill                          |
 | -------- | -------------------------------------------- | 
 | #1       |  100% success rate.                          | 
 |          |  8/10 dislike                                | 
@@ -48,6 +48,7 @@ Goal: whether users know how to split the credits when the Math involves an infi
 | #5       | 100% success                                 |
 | -------- | -------------------------------------------- | 
 | #6       | 100% success                                 |
+| -------- | -------------------------------------------- | 
 
 
 
