@@ -29,8 +29,8 @@ Get prepare for task 4.
 ### Task 4: Allocating the credits so that cryptogod receives 10% of the credits, cupcake receives 15% of the credits, cryptopur receives 15% of the credits, and bluecrab receives 60% of the credits.
 Goal: Identify any potential problems when the task is more complex.
 ### Task 5: Delete a collaborator
-Goal: whether users know how to delet a collaborator. 
-### Task 6: spliting the credits evenly between the three collaborators.
+Goal: whether users know how to delete a collaborator. 
+### Task 6: splitting the credits evenly between the three collaborators.
 Goal: whether users know how to split the credits when the Math involves an infinite number. 
 
 # Matrix
@@ -44,12 +44,16 @@ Goal: whether users know how to split the credits when the Math involves an infi
 
 
 
-# Summary
-- The manual input is easier to user with more user satisfactions based on a significantly less amount(73%) of interactions and time.
+# Takeaway
+- The manual input is more accessible to the user based on a significantly less amount(73%) of interactions and time.
+- Users get upset when fields are not deletable.
 - The default username is a confusion point for users to mistaken themselves is other users. 
-- Some users think the creatos section doesn't include themselves
-- Users do not like credits being split among users by default.
+- Some users think that the creator(s) section doesn't include themselves.
 
+
+# Bias
+- In the user testing, we assign users the percentage number, which is a different thinking process in the actual case that users do not know the percentage they want to enter. The difference in thinking process may impact the level of difficulty and satisfaction using manual vs. auto input.
+- In user testing, the user does not have the context that they have a username, so the confusion of whether they are included in the field may be less when they know what they are called.
 
 
 
